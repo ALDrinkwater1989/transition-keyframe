@@ -1,0 +1,22 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #0799d3;
+    top: 0;
+    position: relative;
+border-radius: 50%;
+    animation-name: jumping;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes jumping{
+   from{ 
+       top:  : 0;
+}
+to{
+    top : 100px;
+}
+}
